@@ -3,5 +3,8 @@ html, body
   font-family: monospace;
   height: 200%;
   width: 200%;
-  background-image: url(https://dbukjj6eu5tsf.cloudfront.net/athletics.georgefox.edu/images/2022/9/12/GFU_Redlands09032022-134.jpg)
+  background-image: url(https://dbukjj6eu5tsf.cloudfront.net/athletics.georgefox.edu/images/2022/9/12/GFU_Redlands09032022-134.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
