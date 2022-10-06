@@ -1,5 +1,6 @@
 html, header{
   font-size:50px;
+  fotn-color: White;
 }
 body {
     background-image: linear-gradient(navy,white,gold);
