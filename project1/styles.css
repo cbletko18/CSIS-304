@@ -1,13 +1,16 @@
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
+  color: white;
 }
 head
 { 
   text-align: center;
   font-family: monospace;
+  color: white;
 }
 body
 {
+  color: white;
   font-family: monospace;
   background-color:rgb(0, 0, 128);
 }
