@@ -1,13 +1,15 @@
-<style>
 table, th, td {
   border: 1px solid black;
 }
 head
-{ text-align: center;
+{ 
+  text-align: center;
+  font-family: monospace;
 }
 body
 {
-background-color:rgb(0, 0, 128);
+  font-family: monospace;
+  background-color:rgb(0, 0, 128);
 }
-font-family: monospace;
-</style>
+
+
