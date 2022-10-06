@@ -21,7 +21,7 @@ body
 {
   color: white;
   font-family: monospace;
-  background-color:rgb(0, 0, 128);
+   background-image: linear-gradient(gold, navy, gray);
 }
 
 
