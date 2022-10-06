@@ -7,7 +7,14 @@ p{
 font-size: 36px;
 color: white;
 }
-a
-{color: white;
+a{
+  color: white;
 }
+head 
+{
+  font-family: monospace;
+  color: white;
+  font-size: 52px;
+}
+  
   
