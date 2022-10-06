@@ -4,7 +4,7 @@ html, header{
   font-family: monospace;
 }
 body {
-  background-image: linear-gradient(navy, white, gold);
+  background-image: linear-gradient(navy, gray, gold);
   font-family: monospace;
 }
 
