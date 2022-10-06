@@ -1,6 +1,6 @@
-table,td,tr,th 
-{
-  border: 1px solid;
+<style>
+table, th, td {
+  border: 1px solid black;
 }
 head
 { text-align: center;
@@ -10,3 +10,4 @@ body
 background-color:rgb(0, 0, 128);
 }
 font-family: monospace;
+<style>
