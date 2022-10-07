@@ -21,6 +21,9 @@ footer
    position: fixed;
    background-color: gold;
    color: white;
+   bottom: 0;
+  text-align: center;
+  
 }
   
   
