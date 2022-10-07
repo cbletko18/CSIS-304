@@ -23,6 +23,7 @@ body
   color: white;
   font-family: monospace;
   background-image: linear-gradient(gold, navy, gray);
+  font-size: 40px;
 }
 
 
