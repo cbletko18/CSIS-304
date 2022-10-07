@@ -23,7 +23,8 @@ body
   color: white;
   font-family: monospace;
   background-image: linear-gradient(gold, navy, gray);
-  font-size: 40px;
+  font-size: 32px;
+  text-align: center;
 }
 
 
