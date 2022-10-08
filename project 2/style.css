@@ -11,3 +11,9 @@ p
 { 
   color:white;
 }
+head
+{ 
+  text-align: center;
+  font-family: monospace;
+  color: white;
+}
