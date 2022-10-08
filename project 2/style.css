@@ -5,6 +5,8 @@ html, body
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  heigth: 100%;
+  width:100%;
 }
 p
 { 
