@@ -7,7 +7,7 @@ body {
   background-image: linear-gradient(navy, gray, gold);
   font-family: monospace;
   background-repeat:no-repeat;
-  background-size:auto;
+  background-size:cover;
 }
 
 
