@@ -7,7 +7,6 @@ body {
   background-image: linear-gradient(navy, gray, gold);
   font-family: monospace;
   background-repeat: no-repeat;
-  height: 100%;  background-position: center;
-
+  height: 100%;
 }
 
