@@ -6,10 +6,5 @@ html, header{
 body {
   background-image: linear-gradient(navy, gray, gold);
   font-family: monospace;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  heigth: 100%;
-  width:100%;
 }
 
