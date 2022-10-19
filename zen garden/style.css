@@ -17,7 +17,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: SpringGreen; 
-	background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/seattle-skyline-at-night-hai-huu-thanh-nguyen.jpg) no-repeat;
+	/* background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/seattle-skyline-at-night-hai-huu-thanh-nguyen.jpg) no-repeat; */
 	margin: 0; 
 	padding: 0;
 	background-attachment: fixed;
@@ -67,7 +67,7 @@ abbr {
 	}
 
 header h1 { 
-	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+	background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/seattle-skyline-at-night-hai-huu-thanh-nguyen.jpg) no-repeat top middle;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
