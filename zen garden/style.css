@@ -5,7 +5,7 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
+	color: aquamarine; 
 	background: #fff url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/seattle-skyline-at-night-hai-huu-thanh-nguyen.jpg) no-repeat center; 
 	margin: 0; 
 	padding: 0;
@@ -19,7 +19,7 @@ h3 {
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: Aquamarine;
+	color: #CC0000;
 	}
 a:link { 
 	font-weight: bold; 
