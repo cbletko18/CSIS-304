@@ -4,7 +4,7 @@ html {
 	}
 body { 
 	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
+	line-height: 2;
 	color: aquamarine; 
 	background: #fff url(https://media.cntraveler.com/photos/5715168c80cf3e034f97238d/16:9/w_2580,c_limit/skylines-dubai-cr-getty-470434611.jpg) no-repeat center; 
 	margin: 0; 
@@ -25,16 +25,16 @@ h3 {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #66FF66;
+	color: #FF33CC;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #FF6600;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #FF33CC;
+	color: #66FF66;
 	}
 abbr {
 	border-bottom: none;
