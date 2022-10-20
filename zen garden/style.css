@@ -127,6 +127,9 @@ footer a:link, footer a:visited {
 	margin-top: 150px; 
 	width: 130px; 
 	color: aquamarine;
+	border-style: outset;
+    	border-block-color: #CC0000;
+   	 border-width: thick;
 	}
 .sidebar h3.select { 
 	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
