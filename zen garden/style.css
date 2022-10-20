@@ -126,6 +126,7 @@ footer a:link, footer a:visited {
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
+	color: aquamarine;
 	}
 .sidebar h3.select { 
 	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
@@ -170,6 +171,7 @@ footer a:link, footer a:visited {
 	padding-top: 5px; 
 	margin-bottom: 5px;
 	list-style-type: none;
+	color: #5233a1;
 	}
 .sidebar li a:link {
 	color: #988F5E;
