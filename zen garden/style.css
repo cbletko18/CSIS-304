@@ -88,6 +88,9 @@ header {
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
 	float: left;
+	border-style: outset;
+    	border-block-color: #CC0000;
+    	border-width: thick;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
