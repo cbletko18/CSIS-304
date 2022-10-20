@@ -25,7 +25,7 @@ h3 {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #66FF66;
 	}
 a:visited { 
 	font-weight: bold; 
@@ -34,7 +34,7 @@ a:visited {
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #FF33CC;
 	}
 abbr {
 	border-bottom: none;
