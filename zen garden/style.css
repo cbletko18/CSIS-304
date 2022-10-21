@@ -112,6 +112,7 @@ header {
 
 footer { 
 	text-align: center; 
+	background-image: radial-gradient(#da7fff, black);
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
