@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
+   <title>Magic 8 Ball</title>
+   <meta charset="UTF-8">
 </head>
 <body>
-<h2>Demo JavaScript in Head</h2>
+   <h1>Magic 8 Ball</h1>
+   <script>
 
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
+   // Possible 8 Ball responses
+   let responses = [ "Without a doubt", "Ask again later", "Don't count on it" ];
 
+   // Display a randomly chosen response
+   let randomNum = Math.floor(Math.random() * responses.length);
+   document.writeln("<p>Magic 8 Ball says... <strong>" + responses[randomNum] + "</strong>.</p>");
+
+   </script>
 </body>
 </html>
