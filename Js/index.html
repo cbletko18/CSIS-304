@@ -23,11 +23,11 @@
   <br>  
 
    <button onclick="myFunction()">Get lucky number</button>
-   <p id="Lucky number"> hi </p>
+   <p id="Lucky number"> hi there </p>
     <script>
     function myFunction(){
       document.getElementById("Lucky number").innerHTML =  function randomInteger(min, max) {
-     return Math.floor(Math.random() *(max-min) +min);
+      return Math.floor(Math.random() *(max-min) +min);
     }
     //document.write("What's your lucky number: ")
     //document.write( randomInteger(1,100) )
