@@ -2,7 +2,7 @@
 <body>
 
 <h1>Whats your color number combo?</h1>
-
+<form action="/action_page.php" method="alert">
   <p>Choose your favorite color out of the list below</p>
   <input type="radio" id="Yellow" name="fav_color" value="Yellow">
   <label for="Yellow">Yellow</label><br>
@@ -24,7 +24,16 @@
     function randomInteger(min, max) {
     return Math.floor(Math.random() *(max-min) +min);
     }
+    function getInput()
+      var input = document.getElementsByName ('fav_color');
+      for(i = 0; i <input.length; 1++)
+      {
+        if input[i].checked
+      {
+          
+      }
    </script>
+ 
 
 </body>
 </html>
