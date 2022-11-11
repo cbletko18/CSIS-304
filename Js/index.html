@@ -1,15 +1,6 @@
 <html>
 <body>
 <div id = "show">
- <input type="submit" id="back" name="home" value="back" style=display:none>
- <label for="Back"> </label><br>
- <script>
-   document.getElementById("back").addEventListener("click",show_page)
-    function show_page(){
-      document.getElementById("hide").style.display = "block"
-      document.getElementById("show")
-    }
- </script>
 <div id = "hide">
 <h1>Button Palooza</h1>
 
@@ -78,6 +69,15 @@
     }
  </script>
  </div>
+  <input type="submit" id="back" name="home" value="back" style=display:none>
+ <label for="Back"> </label><br>
+ <script>
+   document.getElementById("back").addEventListener("click",show_page)
+    function show_page(){
+      document.getElementById("hide").style.display = "block"
+      document.getElementById("show")
+    }
+ </script>
  </div>
 </body>
 </html>
