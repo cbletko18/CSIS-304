@@ -47,6 +47,7 @@
     function hide_page(){
       document.getElementById("hide").style.display = "none";
       const ptag = document.createElement ("p")
+      ptag.id = "delete"
       const node = document.createTextNode ("Sorry you failed")
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
