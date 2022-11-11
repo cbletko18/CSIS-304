@@ -1,5 +1,5 @@
 <html>
-<body style = background-color:Red>
+<body id = "body">
   
 <div id = "show">
 <div id = "hide">
@@ -12,6 +12,12 @@
   <label for="Green">Green</label><br>
   <input type="radio" id="Red" name="fav_color" value="Red">
   <label for="Red">Red</label><br>
+  <script> 
+    document.getElementById("Blue").addEventListener("click",blue_page)
+    function blue_page(){
+      document.getElementById("body").style.background-color = "blue";
+    }
+  </script>
   <br>  
 
   
