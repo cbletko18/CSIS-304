@@ -3,6 +3,13 @@
 <div id = "show">
  <input type="submit" id="back" name="home" value="back">
  <label for="back">Back</label><br>
+ <script>
+   document.getElementById("back").addEventListener("click",show_page)
+    function show_page(){
+      document.getElementById("hide").style.display = "block"
+      document.getElementById("show")
+    }
+ </script>
 <div id = "hide">
 <h1>Button Palooza</h1>
 
@@ -44,15 +51,7 @@
   <label for="Yes">Yes</label><br>
   <input type="submit" id="No" name="Js_fun" value="No">
   <label for="No">No</label><br>
-  <script>
-  //document.getElementById("Yes").addEventListener("click",change_page)
-    //function change_page(){
-      //const ptag = document.createElement ("p")
-      //const node = document.createTextNode ("Sorry you failed")
-      //ptag.appendChild(node);
-      //document.getElementById("fail").appendChild(ptag)
-  //}
-  
+<script>
   document.getElementById("Yes").addEventListener("click",hide_page)
     function hide_page(){
       document.getElementById("hide").style.display = "none";
@@ -61,11 +60,12 @@
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
     }
-  document.getElementById("back").addEventListener("click",show_page)
-    function show_page(){
-      document.getElementById("hide").style.display = ""
-      document.getElementById("show")
-    }
+ // document.getElementById("back").addEventListener("click",show_page)
+   // function show_page(){
+   //   document.getElementById("hide").style.display = "block"
+     // document.getElementById("show")
+    //}
+
  </script>
  </div>
  </div>
