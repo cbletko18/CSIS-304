@@ -1,6 +1,8 @@
 <html>
 <body>
-
+<div id = "show">
+ 
+<div id = "hide">
 <h1>Button Palooza</h1>
 
   <p>Choose your favorite color out of the list below</p>
@@ -39,19 +41,27 @@
  <p>Is JavaScript Fun?</p>
   <input type="submit" id="Yes" name="Js_fun" value="Yes">
   <label for="Yes">Yes</label><br>
-  <div id = "fail">
-  </div>
   <input type="submit" id="No" name="Js_fun" value="No">
   <label for="No">No</label><br>
   <script>
-  document.getElementById("Yes").addEventListener("click",change_page)
-  function change_page(){
-  const ptag = document.createElement ("p")
-  const node = document.createTextNode ("Sorry you failed")
-  ptag.appendChild(node);
-  document.getElementById("fail").appendChild(ptag)
-  }
+  //document.getElementById("Yes").addEventListener("click",change_page)
+    //function change_page(){
+      //const ptag = document.createElement ("p")
+      //const node = document.createTextNode ("Sorry you failed")
+      //ptag.appendChild(node);
+      //document.getElementById("fail").appendChild(ptag)
+  //}
+  
+  document.getElementById("Yes").addEventListener("click",hide_page)
+    function hide_page(){
+      document.getElementById("hide").style.display = "none";
+      const ptag = document.createElement ("p")
+      const node = document.createTextNode ("Sorry you failed")
+      ptag.appendChild(node);
+      document.getElementById("show").appendChild(ptag)
+    }
  </script>
-
+  </div>
+  </div>
 </body>
 </html>
