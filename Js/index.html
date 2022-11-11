@@ -60,8 +60,15 @@
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
     }
+  document.getElementById("back").addEventListener("click",show_page)
+    function show_page(){
+      document.getElementById("hide").style.display = ""
+      document.getElementById("show")
+    }
  </script>
   </div>
+  <input type="submit" id="back" name="home" value="back">
+  <label for="back">Back</label><br>
   </div>
 </body>
 </html>
