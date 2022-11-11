@@ -1,7 +1,7 @@
 <html>
 <body>
 <div id = "show">
- <input type="submit" id="back" name="home" value="back">
+ <input type="submit" id="back" name="home" value="back" style=display:none>
  <label for="back">Back</label><br>
  <script>
    document.getElementById("back").addEventListener("click",show_page)
@@ -59,7 +59,6 @@
       const node = document.createTextNode ("Sorry you failed")
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
-     document.getElementById("back").addEventListener("click",hide_page)
     }
  // document.getElementById("back").addEventListener("click",show_page)
    // function show_page(){
@@ -76,7 +75,6 @@
       const node = document.createTextNode ("Congratulations you rock!")
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
-     document.getElementById("back").addEventListener("click",hide_page)
     }
  </script>
  </div>
