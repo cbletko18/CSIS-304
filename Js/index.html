@@ -50,6 +50,7 @@
       const node = document.createTextNode ("Sorry you failed")
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
+      document.getElementById("back").style.display = "block";
     }
  // document.getElementById("back").addEventListener("click",show_page)
    // function show_page(){
@@ -63,9 +64,11 @@
     function hide_page(){
       document.getElementById("hide").style.display = "none";
       const ptag = document.createElement ("p")
+      ptag.id = "delete"
       const node = document.createTextNode ("Congratulations you rock!")
       ptag.appendChild(node);
       document.getElementById("show").appendChild(ptag)
+      document.getElementById("back").style.display = "block";
     }
  </script>
  </div>
@@ -75,7 +78,8 @@
    document.getElementById("back").addEventListener("click",show_page)
     function show_page(){
       document.getElementById("hide").style.display = "block"
-      document.getElementById("show")
+      document.getElementById("back").style.display = "none";
+      document.getElementById("delete").remove();
     }
  </script>
  </div>
