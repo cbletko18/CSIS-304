@@ -14,11 +14,12 @@ Food
 function getresponse()
   {
 fetch ("https://programming-quotes-api.herokuapp.com/quotes/random").then((response) => response.json()).then((retriveimage) => changeScr(retriveimage.en)
-                                                                                                              }
+  }
 function changeScr(Image)
   {
   document.getElementById("Imageid").innerHTML = Image
   }
+getresponse()
  </script>
 
 </html>
