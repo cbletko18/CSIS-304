@@ -1,11 +1,23 @@
 <html>
 <link rel="stylesheet" href="style.css"/>
  <head>
-Welcome to Chad's NBA Fan page
+Food
  </head>
 <body>
-</body>
+<img id="Imageid">
 
+
+   
+</body>
+ <script>
+fetch ("https://foodish-api.herokuapp.com/")
+.then ((response) => response.json())
+.then ((retriveimage) => changeScr(retriveimage.image)
+function changeScr(Image)
+  {
+  document.getElementById("Imageid").src= Image
+  }
+ </script>
 
 </html>
 
