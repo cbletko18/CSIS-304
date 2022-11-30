@@ -1,7 +1,7 @@
 <html>
 <link rel="stylesheet" href="style.css"/>
  <head>
-Food
+
  </head>
 <body>
 <div id="Imageid">
@@ -20,8 +20,20 @@ function changeScr(Image)
   document.getElementById("Imageid").innerHTML = Image
   }
 getresponse()
+
+ </script>
+
+<button onclick ="myFunction()">Background Image </button>
+   <div id="random picture"> Hello 
+    </div>
+ <script>
+   function myFunction()
+  {
+      var array = ["https://images8.alphacoders.com/115/1156488.png", "https://images.hdqwalls.com/wallpapers/thumb/code-syntax-dark-minimal-4k-mr.jpg", "https://www.myfreewalls.com/public/uploads/preview/be-awesome-programming-code-4k-wallpaper-116545639122rmvvyqrhr.jpg"]
+      var value = randomInteger(0,2);
+      document.getElementById("Random picture").style.backgroundImage = array[value];
+  }
  </script>
 
 </html>
-
 
