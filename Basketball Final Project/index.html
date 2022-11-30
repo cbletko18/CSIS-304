@@ -4,18 +4,19 @@
 Food
  </head>
 <body>
-<img id="Imageid">
+<div id="Imageid">
+</div>
 
 
    
 </body>
  <script>
-fetch ("https://foodish-api.herokuapp.com/")
+fetch ("https://programming-quotes-api.herokuapp.com/quotes/random")
 .then ((response) => response.json())
-.then ((retriveimage) => changeScr(retriveimage.image)
+.then ((retriveimage) => changeScr(retriveimage.en)
 function changeScr(Image)
   {
-  document.getElementById("Imageid").src= Image
+  document.getElementById("Imageid").innerHTML = Image
   }
  </script>
 
