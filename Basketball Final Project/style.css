@@ -2,11 +2,9 @@ html, body
 {
   background-image: URL(https://i.pinimg.com/736x/31/2a/1b/312a1b8baa2efe9d0d85933dbdb7140b.jpg);
   font-family: monospace;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  heigth: 100%;
-  width:100%;
+
 }
 header 
 {
