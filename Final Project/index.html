@@ -20,11 +20,15 @@
     <tr>
       <th>Player name</th>
       <th>Team Name</th>
-      <th>Player Points per game</th>
-      <th>Player Rebounds per game</th>
-      <th>Player Assits per game</th>
-      <th>Player Steals per game</th>
-      <th>Player Blocks per game</th>
+      <th>Points per game</th>
+      <th>Rebounds per game</th>
+      <th>Assits per game</th>
+      <th>Steals per game</th>
+      <th>Blocks per game</th>
+      <th>Field Goal %</th>
+      <th>3 Point %</th>
+      <th>Free Throw %</th>
+      <th>Turnovers per game</th>
     </tr>
     <tr>
       <td>Luka Doncic</td>
@@ -34,6 +38,10 @@
       <td>8.6</td>
       <td>1.8</td>
       <td>0.5</td>
+      <td>50.5%</td>
+      <td>31.5%</td>
+      <td>72.3%</td>
+      <td>3.6</td>
     </tr>
     <tr>
       <td>Jayson Tatum</td>
@@ -43,6 +51,10 @@
       <td>4.5</td>
       <td>0.9</td>
       <td>1.1</td>
+      <td>48.8%</td>
+      <td>36.6%</td>
+      <td>87.3%</td>
+      <td>2.3</td>
     </tr>
     <tr>
       <td>Nikola Jokic</td>
@@ -52,6 +64,10 @@
       <td>8.8</td>
       <td>1.3</td>
       <td>0.6</td>
+      <td>62.9%</td>
+      <td>32.4%</td>
+      <td>84.7%</td>
+      <td>3.3</td>
     </tr>
     <tr>
       <td>Giannis Antetokounmpo</td>
@@ -61,6 +77,10 @@
       <td>5.5</td>
       <td>0.9</td>
       <td>1.0</td>
+      <td>55.3%</td>
+      <td>23.2%</td>
+      <td>60.8%</td>
+      <td>3.7</td>
     </tr>
     <tr>
       <td>Kevin Durant</td>
@@ -69,7 +89,11 @@
       <td>6.5</td>
       <td>5.3</td>
       <td>0.7</td>
-      <td>0.7</td>
+      <td>1.7</td>
+      <td>55.3%</td>
+      <td>35.5%</td>
+      <td>92.3%</td>
+      <td>3.3</td>
     </tr>
     <tr>
       <td>Ja Morant</td>
@@ -79,6 +103,10 @@
       <td>7.6</td>
       <td>1.1</td>
       <td>0.3</td>
+      <td>46.8%</td>
+      <td>37.6%</td>
+      <td>74.3%</td>
+      <td>3.9</td>
     </tr>
     <tr>
       <td>Shai Gilgeous-Alexander</td>
@@ -88,6 +116,10 @@
       <td>6.0</td>
       <td>1.7</td>
       <td>1.2</td>
+      <td>50.6%</td>
+      <td>33.9%</td>
+      <td>91.9%</td>
+      <td>3.2</td>
     </tr>
     <tr>
       <td>Steph Curry</td>
@@ -97,6 +129,10 @@
       <td>7.0</td>
       <td>1.1</td>
       <td>0.2</td>
+      <td>51.8%</td>
+      <td>43.6%</td>
+      <td>90.7%</td>
+      <td>2.1</td>
     </tr>
     <tr> 
       <td>Joel Embiid</td>
@@ -106,6 +142,10 @@
       <td>4.9</td>
       <td>1.1</td>
       <td>1.6</td>
+      <td>51.1%</td>
+      <td>26.5%</td>
+      <td>83.9%</td>
+      <td>4.1</td>
     </tr>
     <tr> 
       <td>Donovan Mitchell</td>
@@ -115,10 +155,19 @@
       <td>5.0</td>
       <td>1.4</td>
       <td>0.4</td>
+      <td>49.0%</td>
+      <td>42.2%</td>
+      <td>88.5%</td>
+      <td>3.0</td>
     </tr>
 
   </table>
-   
+  <div id="team">
+The MVP award is only given to one person but it is as much of a indivudal accomplishment as it is a team accomplishment. Ever since the 2000 NBA season every MVP's team had more than 43 wins in the season. 
+  </div>
+  <div id="MVP">
+    Here is where these ten MVP candiates stand in terms of team success this season.
+  </div>
   <div>
     <canvas id="myChart"></canvas>
   </div>
@@ -136,7 +185,7 @@ getresponse()
 
  </script>
 
-<button onclick ="myFunction()">Background Image </button>
+<button onclick ="myFunction()">Whose your MVP</button>
    <div id="RandomPicture">  
     </div>
  <script>
@@ -157,8 +206,8 @@ getresponse()
      data: {
        labels: ['Dallas Mavericks', 'Boston Celtics', 'Denver Nuggets', 'Milwaukee Bucks', 'Brooklyn Nets', 'Memphis Grizzlies','Oklahoma City Thunder', 'Golden State Warriors', 'Philadelphia 76ers', 'Cleveland Cavaliers'],
        datasets: [{
-         label: '# Wins',
-         data: [10, 18, 14, 15, 12, 12, 9, 11, 12, 14],
+         label: '# Wins projected end of the Season (max 82)',
+         data: [41, 67, 55, 61, 43, 47, 34, 41, 45, 52],
          borderWidth: 1
        }]
      },
