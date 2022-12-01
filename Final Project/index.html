@@ -72,7 +72,7 @@
       <td>0.7</td>
     </tr>
     <tr>
-      <td>Ja Morants</td>
+      <td>Ja Morant</td>
       <td>Memphis Grizzlies</td>
       <td>28.2</td>
       <td>6.3</td>
@@ -137,14 +137,14 @@ getresponse()
  </script>
 
 <button onclick ="myFunction()">Background Image </button>
-   <div id="random picture">  
+   <div id="RandomPicture">  
     </div>
  <script>
    function myFunction()
   {
       var array = ["https://images8.alphacoders.com/115/1156488.png", "https://images.hdqwalls.com/wallpapers/thumb/code-syntax-dark-minimal-4k-mr.jpg", "https://www.myfreewalls.com/public/uploads/preview/be-awesome-programming-code-4k-wallpaper-116545639122rmvvyqrhr.jpg"]
       var value = randomInteger(0,2);
-      document.getElementById("Random picture").style.backgroundImage = array[value];
+      document.getElementById("RandomPicture").style.backgroundImage = array[value];
   }
  </script>
  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -155,10 +155,10 @@ getresponse()
    new Chart(ctx, {
      type: 'bar',
      data: {
-       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+       labels: ['Dallas Mavericks', 'Boston Celtics', 'Denver Nuggets', 'Milwaukee Bucks', 'Brooklyn Nets', 'Memphis Grizzlies','Oklahoma City Thunder', 'Golden State Warriors', 'Philadelphia 76ers', 'Cleveland Cavaliers'],
        datasets: [{
-         label: '# of Votes',
-         data: [12, 19, 3, 5, 2, 3],
+         label: '# Wins',
+         data: [10, 18, 14, 15, 12, 12, 9, 11, 12, 14],
          borderWidth: 1
        }]
      },
