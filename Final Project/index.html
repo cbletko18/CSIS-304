@@ -1,12 +1,26 @@
 <html>
 <link rel="stylesheet" href="style.css"/>
  <head>
-  Welcome to Chad's (not so experinced programmer but experinced NBA Analyst) Top 10 NBA MVP Race 
+  <title>NBA MVP Race </title>
  </head>
 <body>
+  <h1>
+    Welcome to Chad's (not so experinced programmer but experinced NBA Analyst) Top 10 NBA MVP Race
+  </h1>
 <div id="Imageid">
 </div>
-
+<div id="sidenav">
+  <a href="https://www.youtube.com/watch?v=JZ2C5d4hgpw">2021 Luka Doncic Highlights</a>
+  <a href="https://www.youtube.com/watch?v=lNk2JyGU0CIs">2021 Jayson Tatum Highlights </a>
+  <a href="https://www.youtube.com/watch?v=hQQQDc98efQ">2021 Nikola Jokic Highlights</a>
+  <a href="https://www.youtube.com/watch?v=sm6_usWbRrk">2021 Giannis Antetokounmpo Highlights</a>
+  <a href="https://www.youtube.com/watch?v=5DT2UbxTCEE">2021 Kevin Durant Highlights </a>
+  <a href="https://www.youtube.com/watch?v=J1FCkjGQ4uA">2021 Ja Morant Highlights</a>
+  <a href="https://www.youtube.com/watch?v=kQ98SbHtNUM">2021 Sahi Gilgeous-Alexander Highlights</a>
+  <a href="https://www.youtube.com/watch?v=WmGPO10hhlw">2021 Steph CurryHighlights </a>
+  <a href="https://www.youtube.com/watch?v=pJyJFeFMBNo">2021 Joel Embiid Highlights</a>
+  <a href="https://www.youtube.com/watch?v=Ox91Sz8JIzI">2021 Donovan Mitchell Highlights</a>
+</div>
 <style>
   table, th, td {
     border:1px solid black;
@@ -16,7 +30,7 @@
   
   <h2>Quick Stats on each players season to date</h2>
   
-  <table style="width:100%">
+  <table style="width:70%">
     <tr>
       <th>Player name</th>
       <th>Team Name</th>
@@ -168,7 +182,7 @@ The MVP award is only given to one person but it is as much of a indivudal accom
   <div id="MVP">
     Here is where these ten MVP candiates stand in terms of team success this season.
   </div>
-  <div>
+  <div style="width:70%">
     <canvas id="myChart"></canvas>
   </div>
 </body>
@@ -195,6 +209,9 @@ getresponse()
       var value = randomInteger(0,2);
       document.getElementById("RandomPicture").style.backgroundImage = array[value];
   }
+  function myFunction()
+
+  
  </script>
  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
