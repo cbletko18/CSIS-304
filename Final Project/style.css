@@ -2,17 +2,16 @@ h1
 {
     text-align: center;
     font-family: monospace;
-    color:navy;
-    font-size: 20px;
+    color:maroon;
+    font-size: 30px;
     font-weight: bolder;
     padding-right: 20%;
 }
-
 h2
 {
     text-align:left;
     font-family: monospace;
-    color:black;
+    color:navy;
     font-size: 14px;
     font-weight: bold;
 }
@@ -26,26 +25,18 @@ h2
     color: white;
     text-align: center;
 }
-
 table
 {
     font-family:monospace ;
     text-align: center;
 }
-
-#RandomPicture
-{
-
-}
-
 #team
 {
     padding-top: 50px;
     color:navy;
-    padding-right: 500px;
+    padding-right: 300px;
     font-family: monospace;
 }
-
 #MVP
 {
     font-size: larger;
@@ -55,41 +46,42 @@ table
     color:navy;
     font-family: monospace;
 }
-
 #sidenav {
-    height: 79%;
+    height: 82%%;
     width: 15%;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: maroon;
     overflow-x:visible;
-    padding-top: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
   }
-  
   #sidenav a 
   {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    color:azure;
     display: block;
-  }
-  #myChart
-  {
-    
-  }
-  #buttonMVP
-  {
+}
+#buttonMVP
+{
     text-align: right;
-  }
-  #APIWOW
-  {
+}
+#APIWOW
+{
     font-size: larger;
     font-weight: bolder;
     padding-top: 25px;
     padding-bottom: 25px;
     color:maroon;
     font-family: monospace;
-  }
+}
+body
+{
+    background-color: azure;
+}
