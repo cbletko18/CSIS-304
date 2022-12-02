@@ -43,6 +43,7 @@ table
     padding-top: 50px;
     color:navy;
     padding-right: 500px;
+    font-family: monospace;
 }
 
 #MVP
@@ -52,6 +53,7 @@ table
     padding-top: 25px;
     padding-bottom: 25px;
     color:navy;
+    font-family: monospace;
 }
 
 #sidenav {
@@ -77,4 +79,17 @@ table
   #myChart
   {
     
+  }
+  #buttonMVP
+  {
+    text-align: right;
+  }
+  #APIWOW
+  {
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:maroon;
+    font-family: monospace;
   }
