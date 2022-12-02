@@ -1,12 +1,21 @@
-head
+h1
 {
     text-align: center;
     font-family: monospace;
-    color:white;
-    font-size: 25px;
+    color:navy;
+    font-size: 20px;
     font-weight: bolder;
+    padding-right: 20%;
 }
 
+h2
+{
+    text-align:left;
+    font-family: monospace;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+}
 #Imageid
 {
     position: fixed;
@@ -20,15 +29,52 @@ head
 
 table
 {
+    font-family:monospace ;
     text-align: center;
-}
-
-#myChart
-{
-
 }
 
 #RandomPicture
 {
-    
+
 }
+
+#team
+{
+    padding-top: 50px;
+    color:navy;
+    padding-right: 500px;
+}
+
+#MVP
+{
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:navy;
+}
+
+#sidenav {
+    height: 79%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x:visible;
+    padding-top: 20px;
+  }
+  
+  #sidenav a 
+  {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  #myChart
+  {
+    
+  }
